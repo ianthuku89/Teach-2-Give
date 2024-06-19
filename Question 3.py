@@ -1,7 +1,9 @@
-#Design a function that takes a string or sequence of characters as input
-#and returns the character that appears most frequently.
-#//Eg 11189 => '1'
-#//hello => l
+"""
+Design a function that takes a string or sequence of characters as input
+and returns the character that appears most frequently.
+//Eg 11189 => '1'
+//hello => l
+"""
 def frequent_char(input_str):
     max_count = 0
     most_frequent_char = None
